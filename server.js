@@ -1,8 +1,8 @@
 import dotenv from "dotenv";
 dotenv.config();
-import app from "./app.js";
-import logger from "./utils/logger.js";
-import "./crons/cronSchedular.js";
+import app from "./src/app.js";
+import logger from "./src/utils/logger.js";
+import "./src/crons/cronSchedular.js";
 
 
 
